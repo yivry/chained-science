@@ -1,6 +1,6 @@
 # Chained Science
 
-A Factorio mod that changes Science recipes to make every science require the previous one.
+<img align="right" src="mod/thumbnail.png" title="Chained Science" alt="Thumbnail"/>A Factorio mod that changes Science recipes to make every science require the previous one.
 
 Factorio Mod Portal: https://mods.factorio.com/mod/chained-science
 
