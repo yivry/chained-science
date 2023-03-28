@@ -1,0 +1,11 @@
+{
+    "name": "chained-science",
+    "version": "0.1.0",
+    "title": "Chained Science",
+    "author": "Yivry",
+    "factorio_version": "1.1",
+    "dependencies": ["base >= 1.1"],
+    "description": "Changes every vanilla science pack recipe to include 1 bottle of the previous science pack per bottle produced.",
+    "homepage": "https://www.yivry.com"
+  }
+  
