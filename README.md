@@ -2,7 +2,7 @@
 
 A Factorio mod that changes Science recipes to make every science require the previous one.
 
-Factorio Mod Portal: tbd
+Factorio Mod Portal: https://mods.factorio.com/mod/chained-science
 
 ## Description
 
