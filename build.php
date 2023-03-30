@@ -62,7 +62,7 @@ if ($opened !== true) {
     error("Couldn't open Zip Archive: {$opened}");
 }
 
-msg("Adding files:");
+msg("Adding mod files:");
 
 $dirIterator = new RecursiveDirectoryIterator(
     $rootPath,
@@ -87,6 +87,17 @@ foreach ($files as $file) {
 
     if (!$added) {
         error("Failed to add file.");
+    }
+}
+
+msg("Adding License and Readme");
+
+foreach (["LICENSE", "README"] as $type) {
+    $file = "/{$type}.md";
+    $added = $archive->addFile(__DIR__ . $file, $modName . $file);
+
+    if (!$added) {
+        error("Failed to add {$type}.");
     }
 }
 
