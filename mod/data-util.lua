@@ -6,6 +6,14 @@ function pflog (message)
     log(pf(" " .. message))
 end
 
+function table_contains (t, element)
+    for key, value in pairs(t) do
+        if (value == element) then return key end
+    end
+
+    return nil
+end
+
 
 -- Factorio-specific functions
 
