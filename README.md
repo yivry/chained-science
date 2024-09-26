@@ -22,4 +22,4 @@ See [mod/changelog.txt](mod/changelog.txt)
 
 ## Copyright
 
-MIT License. Copyright (c) 2023 Yivry
+MIT License. Copyright (c) 2023 - 2024 Yivry
